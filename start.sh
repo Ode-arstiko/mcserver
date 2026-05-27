@@ -1,3 +1,6 @@
 #!/bin/bash
 
-java -Xms1G -Xmx2G -jar server.jar nogui
+chmod +x playit
+./playit &
+
+java -Xms1G -Xmx1G -jar server.jar nogui
